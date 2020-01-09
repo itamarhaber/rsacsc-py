@@ -45,7 +45,7 @@ class Manager(object):
     def slot(key):
         ''' Returns the slot for a key '''
         crc = crc64(key)
-        crc %= 16777216
+        crc &= 0xffffff
         return crc
 
     def add(self, key):
