@@ -1,3 +1,8 @@
 .venv/*
 .vscode/*
 *.pyc
+
+build/
+dist/
+.mypy_cache/
+rsacsc_py.egg-info/
