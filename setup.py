@@ -8,6 +8,5 @@ setup(
     install_requires=[
         'redis',
     ],
-    author="Itamar Haber",
-    license='MIT License'
+    author="Itamar Haber"
 )
